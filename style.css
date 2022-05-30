@@ -1,0 +1,51 @@
+* {
+   margin: 0;
+   padding: 0;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 100vh;
+   background: rgb(24, 24, 24);
+}
+
+.interface {
+   text-align: center;
+}
+
+.interface h1 {
+   font-size: 40px;
+}
+
+.interface p {
+   font-size: 40px;
+   margin: 20px 0;
+}
+
+.interface button {
+   width: 100px;
+   line-height: 30px;
+   background: rgb(24, 24, 24);
+   border: 1px solid #fff;
+}
+
+.interface button:active {
+   background: #fff;
+   color: rgb(24, 24, 24);
+   border: 1px solid rgb(24, 24, 24);
+}
+
+
+@media only screen and (max-width: 504px) {
+   .interface button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+   }
+ 
+}
